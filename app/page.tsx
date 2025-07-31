@@ -111,7 +111,7 @@ export default function AxtarGetChat() {
   const addWelcomeMessage = () => {
     const welcomeMessage: Message = {
       id: Date.now().toString(),
-      text: "Salam dostum! Mən AxtarGet AI köməkçisiyəm. Hər şeyi soruşa bilərsən - internetdən məlumat axtarım, suallarına cavab verirəm. Hansı mövzuda danışaq?",
+      text: "Salam dostum! Mən AxtarGet AI köməkçisiyəm. Hər şeyi soruşa bilərsən. Hansı mövzuda danışaq?",
       isUser: false,
       timestamp: getCurrentTime(),
     }
